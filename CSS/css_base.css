@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  all: unset;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+.header {
+  height: 10vh; 
+  width: 30vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+
+.header h4 {
+  margin: 0;
+  cursor: pointer;
+  color: grey;
+}
