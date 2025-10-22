@@ -22,7 +22,7 @@ header, main, footer {
 
 .header {
   height: 10vh; 
-  width: 30vw; 
+  width: 50vw; 
   display: flex; 
   align-items: center; 
   justify-content: space-around;
