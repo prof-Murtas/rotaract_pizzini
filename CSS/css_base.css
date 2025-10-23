@@ -11,6 +11,21 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
 a {
   all: unset;
 }
@@ -31,4 +46,21 @@ header, main, footer {
   margin: 0;
   cursor: pointer;
   color: grey;
+}
+
+.footer {
+  height: 10vh; 
+  width: 50vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+
+.foto_index {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../Media/"); /* Percorso dell'immagine di sfondo */
+  background-size: cover;       /* Scala l'immagine per riempire la div */
+  background-position: center;  /* Centra l'immagine */
+  background-repeat: no-repeat; /* Evita ripetizioni */
 }
