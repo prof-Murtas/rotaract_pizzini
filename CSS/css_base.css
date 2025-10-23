@@ -62,10 +62,9 @@ header, main, footer {
 
 .foto_index {
   width: 100%;
-  height: 60vh;
-  background-image: url("../Media/");
+  height: 80vh;
+  background-image: url("../Media/FotoTrento.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
