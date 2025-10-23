@@ -69,3 +69,30 @@ header, main, footer {
   background-repeat: no-repeat;
 }
 
+.titoloCollaborazioni {
+  color: #e2457c;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  font-size: 3 .5rem;
+}
+
+.paragrafoCollaborazioni{
+  text-align: center;
+  
+}
+
+.buttoneMentorship {
+  background-color: #e2457c;
+  color: white;              /* testo bianco */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* effetto morbido */
+}
+
+.buttoneMentorship:hover {
+  background-color: black;
+}
