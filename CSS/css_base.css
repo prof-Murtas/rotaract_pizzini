@@ -14,9 +14,6 @@ body {
 h1 {
   margin: 0;
   font-size: 3.5rem;
-  text-align: center;
-  margin-top: 100px;
-  color: #e2457c;
 }
 
 h2 {
@@ -72,8 +69,3 @@ header, main, footer {
   background-repeat: no-repeat;
 }
 
-#pService{
-  text-align: center;
-  align-items: center;
-  margin-top: 50px;
-}
