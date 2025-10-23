@@ -62,10 +62,15 @@ header, main, footer {
 
 .foto_index {
   width: 100%;
-  height: 60vh;
-  background-image: url("../Media/");
+  height: 80vh;
+  background-image: url("../Media/FotoTrento.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD:CSS/css_base.css
 }
 
+=======
+  margin-top: 2.5vh;
+}
+>>>>>>> 61ec0152292de8a71d85d7933f0c08b94d81b028:CSS/css_index.css

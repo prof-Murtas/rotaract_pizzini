@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collaborazioni con Rotary - Rotaract Trento</title>
-    <link rel="stylesheet" href="../CSS/css_base.css">
+    <link rel="stylesheet" href="../CSS/css_service.css">
     <link rel="icon" href="../Media/" type="image/png">
 </head>
 <body>
@@ -12,30 +12,43 @@
         <div class="header">
             <img src="../Media/LogoRotaract-Milano.png" alt="LogoRotaract" style="margin-right: 2vw;">
             <div>
-                <a href="../index.html"><h4>Home</h4></a>
+                <a href="../index.html"><h4 id="h_home" onmouseover="highlight_header('h_home')" onmouseleave="normalize_header('h_home')">Home</h4></a>
             </div>
             <div>
-                <a href="chi_siamo.html"><h4>Chi siamo</h4></a>
+                <a href="chi_siamo.html"><h4 id="h_chiSiamo" onmouseover="highlight_header('h_chiSiamo')" onmouseleave="normalize_header('h_chiSiamo')">Chi siamo</h4></a>
             </div>
             <div>
                 <a href="service.html"><h4 style="color: #e2457c; border-bottom: 2px solid #e2457c;">Service</h4></a>
             </div>
             <div>
-                <a href="eventi.html"><h4>Eventi</h4></a>
+                <a href="eventi.html"><h4 id="h_eventi" onmouseover="highlight_header('h_eventi')" onmouseleave="normalize_header('h_eventi')">Eventi</h4></a>
             </div>
             <div>
-                <a href="collaborazioni_Rotary.html"><h4>Collaborazioni con il Rotary</h4></a>
+                <a href="collaborazioni_Rotary.html"><h4 id="h_collaborazioniRotary" onmouseover="highlight_header('h_collaborazioniRotary')" onmouseleave="normalize_header('h_collaborazioniRotary')">Collaborazioni con il Rotary</h4></a>
             </div>
             <div>
-                <a href="contattaci.html"><h4>Contattaci</h4></a>
+                <a href="contattaci.html"><h4 id="h_contattaci" onmouseover="highlight_header('h_contattaci')" onmouseleave="normalize_header('h_contattaci')">Contattaci</h4></a>
             </div>
         </div>
     </header>
     <main>
-
+        <h1>Service</h1>
+        
+        <div style="display: flex; align-items: center; justify-content: center; text-align: left;">
+            <img src="https://img.freepik.com/premium-vector/service-filled-outline-doodle-design-illustration-symbol-white-background-eps-10-file_848977-350.jpg" alt="Descrizione dell'immagine" style="width: 200px; margin-right: 15px;">
+            <p id="pService">
+                Il Rotaract Milano crede nel valore del Service come 
+                valore fondante della nostra Associazione,<br> 
+                come stimolo per partecipare attivamente allo 
+                sviluppo delle proprie competenze e per il benessere 
+                del proprio territorio.
+            </p>
+        </div>
+        
     </main>
     <footer>
 
     </footer>
+    <script src="../JS/script_base.js"></script>
 </body>
 </html>
