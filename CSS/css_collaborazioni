@@ -62,15 +62,37 @@ header, main, footer {
 
 .foto_index {
   width: 100%;
-  height: 80vh;
-  background-image: url("../Media/FotoTrento.jpg");
+  height: 60vh;
+  background-image: url("../Media/");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD:CSS/css_base.css
 }
 
-=======
-  margin-top: 2.5vh;
+.titoloCollaborazioni {
+  color: #e2457c;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  font-size: 3 .5rem;
 }
->>>>>>> 61ec0152292de8a71d85d7933f0c08b94d81b028:CSS/css_index.css
+
+.paragrafoCollaborazioni{
+  text-align: center;
+  
+}
+
+.buttoneMentorship {
+  background-color: #e2457c;
+  color: white;              /* testo bianco */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* effetto morbido */
+}
+
+.buttoneMentorship:hover {
+  background-color: black;
+}
