@@ -40,7 +40,6 @@ header, main, footer {
   display: flex; 
   align-items: center; 
   justify-content: space-around;
-  margin-top: 2.5vh;
 }
 
 .header h4 {
@@ -103,9 +102,8 @@ header, main, footer {
 }
 
 .descrizione h4 {
-  color: grey;
+  
   line-height: 150%;
-  margin-bottom: 10vh;
 }
 
 .button_chiSiamo {
@@ -132,3 +130,45 @@ header, main, footer {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.footer {
+    height: 10vh; 
+    width: 50vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+  }
+
+
+  /* ====================== EVENTI PAGE ====================== */
+
+  .titoloEventi {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+  }
+  
+  .paragrafoTesto{
+    text-align: center;
+    margin-left: 10vw; 
+    margin-right: 10vw;
+    
+  }
+  
+  .calendar_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .calendar_container iframe {
+    width: 90%;
+    height: 80vh;
+    border: 2px solid #e2457c;
+    border-radius: 10px;
+  }
+  

@@ -32,7 +32,32 @@
         </div>
     </header>
     <main>
+        <h2 style="color: #e2457c; margin-top: 2.5vh; text-align: center;">Contattaci</h2>
 
+        <form action="mailto:erika.minelli@buonarroti.tn.it" method="post" enctype="text/plain">
+
+            <div class="form-group">
+                <label for="nomeCognome"><h3>Nome e Cognome</h3></label>
+                <input type="text" id="nomeCognome" name="Nome_e_Cognome" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="emailUtente"><h3>E-Mail</h3></label>
+                <input type="email" id="emailUtente" name="Email_Utente" required>
+            </div>
+
+            <div class="form-group">
+                <label for="emailUtente"><h3>Oggetto</h3></label>
+                <input type="text" id="oggetto" name="oggetto" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="messaggio"><h3>Messaggio</h3></label>
+                <textarea id="messaggio" name="Messaggio" rows="5" required></textarea>
+            </div>
+        
+            <button type="submit" class="invia-btn">Invia</button>
+        </form>
     </main>
     <footer>
 

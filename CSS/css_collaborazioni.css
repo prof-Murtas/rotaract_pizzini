@@ -77,12 +77,24 @@ header, main, footer {
   font-size: 3 .5rem;
 }
 
-.paragrafoCollaborazioni{
+.sottotitoli {
+  color: #e2457c;
   text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  font-size: 3 .5rem;
+}
+
+.paragrafoTesto{
+  text-align: center;
+  margin-left: 10vw; 
+  margin-right: 10vw;
   
 }
 
-.buttoneMentorship {
+
+/* ====== MENTORSHIP ====== */
+.bottoneMentorship {
   background-color: #e2457c;
   color: white;              /* testo bianco */
   border: none;
@@ -93,6 +105,101 @@ header, main, footer {
   transition: background-color 0.3s ease; /* effetto morbido */
 }
 
-.buttoneMentorship:hover {
+.bottoneMentorship:hover {
   background-color: black;
 }
+
+.mentorship {
+  background-color: #fff;
+  padding: 4rem 8vw;
+  text-align: center;
+}
+
+.mentorship .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.immagine {
+  display: flex;
+  justify-content: center; /* centra orizzontalmente */
+  /*align-items: center;      centra verticalmente */
+  /*height: 100vh;    
+  */      
+}
+
+.iconaLink {
+  width: 60px;
+  stroke-width: 4;
+  
+}
+
+
+/* ====== PROGETTI ====== */
+.progetti {
+  background-color: #fefefe;
+  padding: 4rem 8vw;
+  text-align: center;
+}
+
+.progetti h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  color: #e2457c;
+  margin-bottom: 1rem;
+}
+
+
+.footer {
+  height: 10vh; 
+  width: 50vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+
+
+/*progetti */
+
+
+
+
+.link-card {
+    color: #0078D4;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.link-card:hover {
+    color: #00457C;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
