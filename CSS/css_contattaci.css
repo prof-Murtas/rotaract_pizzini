@@ -61,3 +61,83 @@ header, main, footer {
     justify-content: space-around;
     margin-top: 2.5vh;
 }
+
+.navbar a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #e43b78;
+    border-bottom: 2px solid #e43b78;
+    padding-bottom: 4px;
+}
+
+/* --- Sezione contatto --- */
+.contact-section {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.contact-section h2 {
+    color: #e43b78;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1em;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #e43b78;
+}
+
+.invia-btn {
+    background-color: #e43b78;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.invia-btn:hover {
+    background-color: #d3326b;
+}
+
+footer {
+    background-color: #fafafa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #666;
+}

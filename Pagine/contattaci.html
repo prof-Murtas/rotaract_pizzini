@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contattaci - Rotaract Trento</title>
-    <link rel="stylesheet" href="../CSS/css_index.css">
-    <link rel="icon" href="../Media/" type="image/png">
+    <link rel="stylesheet" href="../CSS/css_contattaci.css">
+    <link rel="icon" href="../Media/LogoRotaryInternational.png" type="image/png">
 </head>
 <body>
-    <header style="display: flex; align-items: center; justify-content: center;">
+    <header style="display: flex; align-items: center; justify-content: center; position: initial;">
         <div class="header">
-            <img src="../Media/LogoRotaract-Milano.png" alt="LogoRotaract" style="margin-right: 2vw;">
+            <img src="../Media/LogoRotaract-Trento.png" alt="LogoRotaract" style="margin-right: 2vw;">
             <div>
-                <a href="../index.html"><h4 id="h_home" onmouseover="highlight_header('h_home')" onmouseleave="normalize_header('h_home')">Home</h4></a>
+                <a href="../index.html"><h4>Home</h4></a>
             </div>
             <div>
                 <a href="chi_siamo.html"><h4 id="h_chiSiamo" onmouseover="highlight_header('h_chiSiamo')" onmouseleave="normalize_header('h_chiSiamo')">Chi siamo</h4></a>
@@ -24,44 +24,35 @@
                 <a href="eventi.html"><h4 id="h_eventi" onmouseover="highlight_header('h_eventi')" onmouseleave="normalize_header('h_eventi')">Eventi</h4></a>
             </div>
             <div>
-                <a href="collaborazioni_Rotary.html"><h4 id="h_collaborazioniRotary" onmouseover="highlight_header('h_collaborazioniRotary')" onmouseleave="normalize_header('h_collaborazioniRotary')">Collaborazioni con il Rotary</h4></a>
+                <a href="collaborazioni_Rotary.html"><h4 onmouseover="highlight_header('h_collaborazioniRotary')" onmouseleave="normalize_header('h_collaborazioniRotary')" id="h_collaborazioniRotary" onmouseover="highlight_header('h_collaborazioniRotary')" onmouseleave="normalize_header('h_collaborazioniRotary')">Collaborazioni con il Rotary</h4></a>
             </div>
             <div>
-                <a href="contattaci.html"><h4 style="color: #e2457c; border-bottom: 2px solid #e2457c;">Contattaci</h4></a>
+                <a href="contattaci.html"><h4 id="h_contattaci" style="color: #e2457c; border-bottom: 2px solid #e2457c;">Contattaci</h4></a>
             </div>
         </div>
     </header>
     <main>
-        <h2 style="color: #e2457c; margin-top: 2.5vh; text-align: center;">Contattaci</h2>
+        <section class="contact-section">
+            <h2>Scrivi in questo form per contattarci</h2>
+            
+            <form action="mailto:erika.minelli@buonarroti.tn.it" method="post" enctype="text/plain" class="contact-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="Nome" placeholder="Scrivi il tuo nome" required>
 
-        <form action="mailto:erika.minelli@buonarroti.tn.it" method="post" enctype="text/plain">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" placeholder="Scrivi il tuo indirizzo email" required>
 
-            <div class="form-group">
-                <label for="nomeCognome"><h3>Nome e Cognome</h3></label>
-                <input type="text" id="nomeCognome" name="Nome_e_Cognome" required>
-            </div>
-        
-            <div class="form-group">
-                <label for="emailUtente"><h3>E-Mail</h3></label>
-                <input type="email" id="emailUtente" name="Email_Utente" required>
-            </div>
+                <label for="messaggio">Messaggio</label>
+                <textarea id="messaggio" name="Messaggio" rows="5" placeholder="Scrivi qualcosa su di te in questo spazio. Ti risponderemo al più presto!" required></textarea>
 
-            <div class="form-group">
-                <label for="emailUtente"><h3>Oggetto</h3></label>
-                <input type="text" id="oggetto" name="oggetto" required>
-            </div>
-        
-            <div class="form-group">
-                <label for="messaggio"><h3>Messaggio</h3></label>
-                <textarea id="messaggio" name="Messaggio" rows="5" required></textarea>
-            </div>
-        
-            <button type="submit" class="invia-btn">Invia</button>
-        </form>
+                <button type="submit" class="invia-btn">✉️ INVIA</button>
+            </form>
+        </section>
     </main>
-    <footer>
-
+    <footer style="display: flex; align-items: center; justify-content: center;">
+        <p>© 2025 Rotaract Club Trento — In collaborazione con i Rotary Club del Distretto 2060</p>
     </footer>
+
     <script src="../JS/script_base.js"></script>
 </body>
 </html>
