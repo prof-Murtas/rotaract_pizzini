@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diventa Socio - Rotaract Trento</title>
+
+    <!-- CSS esterno -->
+    <link rel="stylesheet" href="../CSS/css_diventa_socio.css">
+    <!-- JavaScript esterno -->
+    <script src="../JS/script_socio.js"></script>
+</head>
+
+<body>
+
+    <header style="display: flex; align-items: center; justify-content: center;">
+        <div class="header">
+            <img src="../Media/LogoRotaract-Trento.png" alt="LogoRotaract" style="margin-right: 2vw;">
+            <div>
+                <a href="../index.html"><h4 id="h_home" onmouseover="highlight_header('h_home')" onmouseleave="normalize_header('h_home')">Home</h4></a>
+            </div>
+            <div>
+                <a href="chi_siamo.html"><h4 style="color: #e2457c; border-bottom: 2px solid #e2457c;">Chi siamo</h4></a>
+            </div>
+            <div>
+                <a href="service.html"><h4 id="h_service" onmouseover="highlight_header('h_service')" onmouseleave="normalize_header('h_service')">Service</h4></a>
+            </div>
+            <div>
+                <a href="eventi.html"><h4 id="h_eventi" onmouseover="highlight_header('h_eventi')" onmouseleave="normalize_header('h_eventi')">Eventi</h4></a>
+            </div>
+            <div>
+                <a href="collaborazioni_Rotary.html"><h4 id="h_collaborazioniRotary" onmouseover="highlight_header('h_collaborazioniRotary')" onmouseleave="normalize_header('h_collaborazioniRotary')">Collaborazioni con il Rotary</h4></a>
+            </div>
+
+            <div>
+                <a href="diventa_socio.html">
+                    <h4 id="h_diventaSocio" onmouseover="highlight_header('h_diventaSocio')" onmouseleave="normalize_header('h_diventaSocio')">Diventa Socio</h4>
+                </a>
+            </div>
+
+            <div>
+                <a href="contattaci.html"><h4 id="h_contattaci" onmouseover="highlight_header('h_contattaci')" onmouseleave="normalize_header('h_contattaci')">Contattaci</h4></a>
+            </div>
+        </div>
+        
+    </header>
+    
+    </header>
+    <hr class="divider">
+    <br><br>
+
+    
+    
+
+    <div class="container">
+
+        <!-- INTRO -->
+        <div class="section">
+            <h2 class = "titoloDiventaSocio">Perché diventare socio?</h2>
+            <p class = "paragrafoDiventaSocio">Entrare nel Rotaract significa far parte di una comunità di giovani professionisti 
+            che vogliono crescere, formarsi e contribuire al miglioramento del territorio.  
+            Ogni anno realizziamo progetti, eventi e iniziative che hanno un impatto reale.</p>
+        </div>
+
+        <!-- GENERATORE DI MOTIVI -->
+        <div class="section" style="text-align:center;">
+            <h3 class="sottotitoli">Hai bisogno di un buon motivo?</h3>
+
+            <div id="motivobox">
+                <span id="motivo">Clicca il pulsante qui sotto e te ne diamo uno!</span>
+            </div>
+
+            <button id="bottoneMotivo" onclick="generaMotivo()">Dammi un buon motivo!</button>
+        </div>
+
+      
+        <div class="section" style="text-align:center;">
+            <h3 class="sottotitoli" >Pronto a iniziare?</h2>
+            <p>Compila il form di contatto e ti scriveremo per conoscerci dal vivo!</p>
+
+            <a href="contattaci.html" class="btn-large">Compila il modulo di adesione</a>
+        </div>
+
+    </div>
+
+    <footer>
+        Rotaract Club Trento — Giovani che fanno la differenza.
+    </footer>
+
+    
+
+</body>
+</html>

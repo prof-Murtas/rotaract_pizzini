@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  a {
+    all: unset;
+  }
+  
+  header, main, footer {
+    width: 100%;
+  }
+  
+  .header {
+    height: 10vh; 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    margin-top: 2.5vh;
+  }
+  
+  .header h4 {
+    margin: 0;
+    cursor: pointer;
+    color: grey;
+  }
+  
+  .header div {
+    margin-left: 2vw;
+  }
+  
+  .footer {
+    height: 10vh; 
+    width: 50vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    margin-top: 2.5vh;
+  }
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.titoloDiventaSocio {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+}
+
+.sottotitoli {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+  }
+
+.paragrafoDiventaSocio {
+    text-align: center;
+    margin-left: 10vw; 
+    margin-right: 10vw;
+}
+
+/* BOX MOTIVO */
+#motivobox {
+    margin: 30px 0;
+    padding: 25px;
+    background: #fff1f7;
+    border-left: 5px solid #e2457c;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* BOTTONE MOTIVO */
+#bottoneMotivo {
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    background: #e2457c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+#bottoneMotivo:hover {
+    background: #c93d70;
+}
+
+/* CTA BUTTON */
+.btn-large {
+    display: inline-block;
+    padding: 16px 40px;
+    font-size: 1.2rem;
+    background: #e2457c;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.btn-large:hover {
+    background: #c73b6d;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background: #f4f4f4;
+    color: #666;
+}
