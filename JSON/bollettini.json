@@ -1,0 +1,14 @@
+{
+    "bollettini": [
+        {
+            "titolo": "Bollettino Gennaio 2025",
+            "data": "2025-01-15",
+            "file": "..\/PDF\/bollettino_gennaio_2025.pdf"
+        },
+        {
+            "titolo": "Bollettino Febbraio 2025",
+            "data": "2025-02-15",
+            "file": "..\/PDF\/bollettino_febbraio_2025.pdf"
+        }
+    ]
+}

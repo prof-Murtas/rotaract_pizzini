@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="it">
 
@@ -45,6 +48,12 @@
                 </a>
             </div>
             <div>
+                <a href="bollettino.html">
+                    <h4 id="h_bollettini" onmouseover="highlight_header('h_bollettini')"
+                        onmouseleave="normalize_header('h_bollettini')">Bollettini</h4>
+                </a>
+            </div>
+            <div>
                 <a href="diventa_socio.html">
                     <h4 id="h_diventaSocio" onmouseover="highlight_header('h_diventaSocio')"
                         onmouseleave="normalize_header('h_diventaSocio')">Diventa Socio</h4>
@@ -55,6 +64,9 @@
                     <h4 id="h_contattaci" onmouseover="highlight_header('h_contattaci')"
                         onmouseleave="normalize_header('h_contattaci')">Contattaci</h4>
                 </a>
+            </div>
+            <div>
+                <a href="form.html"><img src="../Media/adminIcona.png" alt="admin" style="height: 5vh; width: 5vh;"></a>
             </div>
         </div>
 
@@ -139,27 +151,19 @@
             <div class="presidenti-grid" id="listaPresidenti"></div>
 
             <script>
+                // Prendo il file JSON dei presidenti
                 fetch('../JSON/presidenti.json')
-                    .then(response => response.json())
-                    .then(presidenti => {
+                    .then(response => response.json()) // converto in oggetto JS
+                    .then(data => {
+                        const lista = document.getElementById("listaPresidenti"); // contenitore
 
-                        const lista = document.getElementById("listaPresidenti");
-                        
-
-                        presidenti.forEach(element => {
+                        // Creo una card per ogni presidente
+                        data.presidenti.forEach(element => {
                             lista.innerHTML += `<div class="card"><h3>${element.nome}</h3><p>${element.mandato}</p></div>`;
                         });
                     });
-
-                /*
-                presidenti.forEach(p => {
-                    
-                });
-                */
-
-
-
             </script>
+
         </section>
     </main>
 

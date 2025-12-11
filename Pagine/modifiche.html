@@ -1,18 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modifiche</title>
+    <title>Modifiche - Rotaract Club Trento</title>
+    <link rel="stylesheet" href="../CSS/css_modifiche.css">
+    <script src="../JS/validazione_modifiche.js"></script>
 </head>
+
 <body>
-    <h1>Modifiche</h1>
 
-    <h3>Aggiungi presidente</h3>
-    <input type="text" placeholder="Nome Cognome"><br>
-    <input type="text" placeholder="AAAA - AAAA">
-    <button onclick=""></button>
+    <h1>Gestione Contenuti</h1>
 
-    <script src="../JS/script_modifiche.js"></script>
+    <!-- Form per aggiungere Presidente -->
+    <div class="form-container">
+        <h3>Aggiungi Presidente</h3>
+        <form action="../PHP/aggiungi_presidente.php" method="post">
+            <label for="nome">Nome e Cognome</label>
+            <input type="text" name="nome" placeholder="Nome e Cognome" required>
+
+            <label for="mandato">Mandato</label>
+            <input type="text" name="mandato" id="mandato" placeholder="AAAA-AAAA" required>
+
+            <button type="submit">Aggiungi</button>
+        </form>
+    </div>
+
+    <!-- Form per aggiungere Bollettino -->
+    <div class="form-container">
+        <h3>Aggiungi Bollettino</h3>
+        <form action="../PHP/aggiungi_bollettini.php" method="post" enctype="multipart/form-data">
+            <label for="titolo">Titolo Bollettino</label>
+            <input type="text" name="titolo" placeholder="Titolo del bollettino" required>
+
+            <label for="data">Data</label>
+            <input type="date" name="data" required>
+
+            <label for="file">Percorso PDF</label>
+            <input type="file" name="file" accept="application/pdf" required><br>
+
+            <button type="submit">Aggiungi</button>
+        </form>
+    </div>
+
+    <a class="back-link" href="../index.html">Torna al sito</a>
+    
+
 </body>
+
 </html>
